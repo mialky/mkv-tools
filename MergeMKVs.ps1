@@ -33,8 +33,8 @@ Foreach ($item in $entries) {
 	
 	# remove source files
 	rm merge.txt
-	rm ("'" + $item[0] + ".mkv'")
-	rm ("'" + $item[1] + ".mkv'")
+	rm ($item[0] + ".mkv")
+	rm ($item[1] + ".mkv")
 }
 
 Write-Host "Complete!"
