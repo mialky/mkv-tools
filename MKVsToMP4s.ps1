@@ -2,12 +2,9 @@
 # Converts (switches containers from) MKVs to MP4s.
 # ----------------------------------------------------------------------------
 
-# list entries (without extensions) as "mkv1_filename", "mkv2_filename", ...;
-# add single entries as ',<entry>':
+# list entries (without extensions):
 
-$entries = (
-	,
-)
+$entries = (,"Film1")
 
 
 
