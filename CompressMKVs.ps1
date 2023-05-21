@@ -3,11 +3,10 @@
 # (Use Audacity to compress audio & MKVToolNix to recombine)
 # ----------------------------------------------------------------------------
 
-# list entries (without extensions) as ("mkv_filename", ".video_filetype", ".audio_filetype");
-# add single entries as '(,<entry>)':
+# list entries (without extensions):
 
 $entries = (
-	,
+	,("Film1", ".video_filetype", ".audio_filetype")
 )
 
 
