@@ -2,11 +2,10 @@
 # Merges/appends MKV files seamlessly.
 # ----------------------------------------------------------------------------
 
-# list entries (without extensions) as ("mkv1_filename", "mkv2_filename", ...);
-# add single entries as '(,<entry>)':
+# list entries (without extensions):
 
 $entries = (
-	,
+	,("Clip1","Clip2")
 )
 
 
@@ -33,8 +32,8 @@ Foreach ($item in $entries) {
 	
 	# remove source files
 	rm merge.txt
-	rm ($item[0] + ".mkv")
-	rm ($item[1] + ".mkv")
+	#rm ($item[0] + ".mkv")
+	#rm ($item[1] + ".mkv")
 }
 
 Write-Host "Complete!"
